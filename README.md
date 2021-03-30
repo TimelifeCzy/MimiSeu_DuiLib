@@ -14,7 +14,7 @@
 |--> 3. MimiSecBaseWin主窗口，负责各功能和数据展示。
 
 #### UI演示：
-
+https://github.com/TimelifeCzy/MimiSeu_DuLib/blob/main/GIF.gif
 
 ##### UI设计：@PeterZ1997  https://github.com/PeterZ1997
 
