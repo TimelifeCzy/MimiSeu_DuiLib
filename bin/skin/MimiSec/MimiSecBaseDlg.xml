@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Window size="800,600" sizebox="4,4,4,4" caption="0,0,0,35" mininfo="800,600" maxinfo="800,600" roundcorner="3,3">
+  <Font shared="true" id="0" name="Times New Roman" size="13" default="true"/>
+  <Font shared="true" id="1" name="Times New Roman" size="12" bold="true" underline="true"/>
+  <Font shared="true" id="2" name="Times New Roman" size="16" bold="true"/>
+  <Font shared="true" id="3" name="Times New Roman" size="18" bold="true"/>
+
+  <VerticalLayout name="MainFrm" width="100" height="100" bkcolor="#FFFFFFFF">
+    <!--Base Dlg-->
+    <HorizontalLayout name="appbar" height="50" padding="10,10,0,0">
+      <HorizontalLayout name="apptitle" childpadding="6" >
+        <Container width="30" height="30" bkimage="logo.png" />
+        <VerticalLayout inset="0,10,0,0" childpadding="5">
+          <Label name="title_lb" height="20" autocalcwidth="true" text="Mimi Internet Security" valign="vcenter" align="left" wordbreak="false" font="2" tooltip="Mimi Internet Security"/>
+        </VerticalLayout>
+      </HorizontalLayout>
+      <HorizontalLayout inset="0,-1,0,0" float="true" height="30" width="151" floatalign="right,top" bordercolor="#FFFF0000" bordersize="0">
+        <FadeButton name="menubtn" virtualwnd="mainpage" width="28" height="25" tooltip="下拉" normalimage="file='sysbtn/xialaanniu_1.png'" hotimage="file='sysbtn/xialaanniu_1.png'" pushedimage="file='sysbtn/xialaanniu.png'"/>
+        <FadeButton name="minbtn" virtualwnd="mainpage" width="28" height="25" tooltip="最小化" normalimage="file='sysbtn/btn_mini_normal.png'" hotimage="file='sysbtn/btn_mini_normal.png'" pushedimage="file='sysbtn/btn_mini_down.png' "/>
+        <FadeButton name="closebtn" virtualwnd="mainpage" width="39" height="25" tooltip="关闭" normalimage="file='sysbtn/btn_close_normal.png'" hotimage="file='sysbtn/btn_close_normal.png'" pushedimage="file='sysbtn/btn_close_down.png' "/>
+      </HorizontalLayout>
+
+    </HorizontalLayout>
+    
+    <!--Tablayout Master Base Dlg Button-->
+    <AnimationTabLayout name="base_tab_switch">
+      
+      <VerticalLayout name="basic_tab_panel" inset="2,2,2,2" vscrollbar="true">
+        <HorizontalLayout name="ComputerView" height="200" >
+          <Container width="200" height="150" bkimage="Computerlog.png" padding="20,20,0,0" />
+          <Label name="SecName" height="30" padding="50,30,0,0" autocalcwidth="true" text="All system are in active" valign="vcenter" align="left" wordbreak="false" font="3" tooltip="All system are in active"/>
+        </HorizontalLayout>
+        <Container height="3" bkcolor="#FF000000" />
+        
+        <HorizontalLayout name="FunctionView" height="250" >
+        <VerticalLayout>
+          <HorizontalLayout>
+            <VerticalLayout>
+              <Option name="ScanButton" virtualwnd="mainpage" width="50" height="50" padding="150,30,0,0" tooltip="ScanButton" bkimage="file='scan.png'" normalimage="file='scan.png'"/>
+              <Label name="ScanButtonText"  width="50" height="50" padding="160,10,0,0" autocalcwidth="true" text="Scan" valign="vcenter" align="left" wordbreak="false" font="1" tooltip="Scan"/>
+            </VerticalLayout>
+
+            <VerticalLayout width="2"  bkcolor="FFA7A6AA"/>
+
+            <VerticalLayout>
+              <Option name="FirewallButton" virtualwnd="mainpage" width="50" height="50" padding="200,30,0,0" tooltip="FirewallButton" bkimage="file='firewall.png'" normalimage="file='firewall.png'"/>
+              <Label name="FirewallButtonText" padding="200,10,0,0" autocalcwidth="true" text="Firewall" valign="vcenter" align="left" wordbreak="false" font="1" tooltip="Firewall"/>
+            </VerticalLayout>
+
+          </HorizontalLayout>
+          <Container height="4" bkcolor="#FFA7A6AA" />
+
+          <HorizontalLayout>
+            <VerticalLayout>
+              <Option name="RePortButton" virtualwnd="mainpage" width="50" height="50" padding="150,30,0,0" tooltip="RePortButton" bkimage="file='Reportform.png'" normalimage="file='Reportform.png'"/>
+              <Label name="RePortButtonText"  width="50" height="50" padding="150,0,0,0" autocalcwidth="true" text="RePort" valign="vcenter" align="left" wordbreak="false" font="1" tooltip="RePort"/>
+            </VerticalLayout>
+            
+            <VerticalLayout width="2" bkcolor="FFA7A6AA"/>
+            
+            <VerticalLayout>
+              <Option name="UpdateButton" virtualwnd="mainpage" width="50" height="50" padding="200,30,0,0" tooltip="UpdateButton" bkimage="file='updatedat.png'" normalimage="file='updatedat.png'"/>
+              <Label name="UpdateButtonText"  width="50" height="50" padding="200,0,0,0" autocalcwidth="true" text="Update" valign="vcenter" align="left" wordbreak="false" font="1" tooltip="Update"/>
+            </VerticalLayout>
+          </HorizontalLayout>
+
+        </VerticalLayout>
+      </HorizontalLayout>
+        <Container height="3" bkcolor="#FF000000" />
+
+        <HorizontalLayout name="Tools" height="50" >
+          <FadeButton name="ToolsButton" virtualwnd="mainpage" width="40" height="40" padding="380,5,0,0" tooltip="ToolsButton" normalimage="file='gongju.png'"/>
+        </HorizontalLayout>
+        <Container height="3" bkcolor="#FFA7A6AA" />
+
+        <HorizontalLayout name="SettiigView">
+        <Label name="databaseupdatetime" height="20" autocalcwidth="true" text="Database last update time: 2 min ago" valign="vcenter" align="left" wordbreak="false" font="2" tooltip="Database last update time: 2 min ago"/>
+        <FadeButton name="SettingButton" virtualwnd="mainpage" width="28" height="28" padding="400,0,0,0" tooltip="SettingButton" normalimage="file='APPiconxinban.png'"/>
+      </HorizontalLayout>
+        
+      </VerticalLayout>
+
+      <VerticalLayout name="scan_tab_pane1" inset="2,2,2,2" vscrollbar="true">
+        
+        <HorizontalLayout height="50">
+          <Option name="ScanExitButton" virtualwnd="mainpage" width="20" height="20" tooltip="ScanExitButton" bkimage="file='fanhui.png'" normalimage="file='fanhui.png'"/>
+          <Text name="ScanExitText" text="return" padding="15,0,0,0" font="2"/>
+        </HorizontalLayout>
+        <Container height="3" bkcolor="#FF000000" />
+
+        <HorizontalLayout name="FunctionView">
+
+          <VerticalLayout width="200">
+
+            <HorizontalLayout name="FullScanHor" height="40" >
+              <VerticalLayout name="FullScanHor_Ver" width="10" height="40" bkcolor="#ffff9900"/>
+              <Button name="FullScanButton" text="Full Scan" height="40" cursor="hand" textcolor="#FF000000" padding="10,0,0,0" glowsize="0" font="2" />
+            </HorizontalLayout>
+            <Container height="3" bkcolor="#FF000000" />
+            <HorizontalLayout name="QuickScanHor" height="40" >
+              <VerticalLayout  name="QuickScanHor_Ver" width="10" height="40" bkcolor="#ffffffff"/>
+              <Button name="QuickScanButton" text="Quick Scan" height="40" cursor="hand" textcolor="#FF000000" padding="10,0,0,0" glowsize="0" font="2" />
+            </HorizontalLayout>
+
+          </VerticalLayout>
+
+          <AnimationTabLayout name="scan_tab_switch">
+
+            <VerticalLayout name="FullScanButtonTable" inset="2,2,2,2" vscrollbar="true">
+              <Label text="FullScanButtonTable" cursor="hand" textcolor="#FF000000" glowsize="0" font="2" />
+              <Container width="30" height="30" bkimage="scan_button.png" />
+            </VerticalLayout>
+
+            <VerticalLayout name="QuickScanButtonTable" vscrollbar="true">
+              <Label text="QuickScanButtonTable" cursor="hand" textcolor="#FF000000" glowsize="0" font="2" />
+            </VerticalLayout>
+
+          </AnimationTabLayout>
+
+        </HorizontalLayout>
+
+      </VerticalLayout>
+      
+      <VerticalLayout name="Firewall_tab_pane1" inset="2,2,2,2" vscrollbar="true">       
+        <HorizontalLayout height="50">
+          <Option name="FirewallExitButton" virtualwnd="mainpage" width="20" height="20" tooltip="FirewallButton" bkimage="file='fanhui.png'" normalimage="file='fanhui.png'"/>
+          <Text name="FirewallExitText" text="return" padding="15,0,0,0" font="2"/>
+        </HorizontalLayout>
+        <Container height="3" bkcolor="#FF000000" />
+      
+        <VerticalLayout bordersize="1" bordercolor="#FF333333" inset="2,2,2,2">
+          <List name="Firewalllistview" vscrollbar="true" hscrollbar="true" style="list_style" itemvalign="vcenter" scrollstepsize="100">
+            <ListHeader height="24" menu="true">
+              <ListHeaderItem name="header_name" text="Pid" width="80" hotimage="res='common/list_header_hot.png'" pushedimage="res='common/list_header_pushed.png'" sepimage="res='common/list_header_sep.png'" sepwidth="1"/>
+              <ListHeaderItem text="Path" width="160" hotimage="res='common/list_header_hot.png'" pushedimage="res='common/list_header_pushed.png'" sepimage="res='common/list_header_sep.png'" sepwidth="1"/>
+              <ListHeaderItem text="协议" width="160" hotimage="res='common/list_header_hot.png'" pushedimage="res='common/list_header_pushed.png'" sepimage="res='common/list_header_sep.png'" sepwidth="1"/>
+              <ListHeaderItem text="本地地址" width="160" hotimage="res='common/list_header_hot.png'" pushedimage="res='common/list_header_pushed.png'" sepimage="res='common/list_header_sep.png'" sepwidth="1"/>
+              <ListHeaderItem text="端口" width="160" hotimage="res='common/list_header_hot.png'" pushedimage="res='common/list_header_pushed.png'" sepimage="res='common/list_header_sep.png'" sepwidth="1"/>
+              <ListHeaderItem text="目标地址" width="160" hotimage="res='common/list_header_hot.png'" pushedimage="res='common/list_header_pushed.png'" sepimage="res='common/list_header_sep.png'" sepwidth="1"/>
+              <ListHeaderItem text="端口" width="160" hotimage="res='common/list_header_hot.png'" pushedimage="res='common/list_header_pushed.png'" sepimage="res='common/list_header_sep.png'" sepwidth="1"/>
+            </ListHeader>
+            <Include source="listitem.xml"/>
+          </List>
+        </VerticalLayout>
+      
+      </VerticalLayout>
+         
+    </AnimationTabLayout>
+    
+  </VerticalLayout>
+</Window>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Window caption="0,0,0,0" size="500,400" sizebox="6,6,6,6" bktrans="true" textrenderinghint="3">
+  <Font id="0" name="微软雅黑" size="18" default="true" />
+  <VerticalLayout bkimage="">
+    <Container>
+      <Control float="true" pos="0,0,0,0" width="500" height="400" bkimage="Mimi Security Solution.png" />
+      <Label name="textProgress" float="true" pos="238,270,0,0" width="207" height="20" textcolor="#00000000" disabledtextcolor="#FFA7A6AA" font="1" />	
+    </Container>
+  </VerticalLayout>
+</Window>
