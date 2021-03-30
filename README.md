@@ -18,4 +18,4 @@
 
 ##### UI设计：@PeterZ1997  https://github.com/PeterZ1997
 
-##### 项目依赖: DuiLib: https://github.com/qdtroy/DuiLib_Ultimate
+##### 项目依赖: DuiLib: https://github.com/qdtroy/DuiLib_Ultimate 请下载将DuiLib链接到本工程中即可编译。
