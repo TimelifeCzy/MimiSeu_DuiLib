@@ -1,4 +1,4 @@
-# MimiSeu_DuLib
+# MimiSeu_DuiLib
 
 #### 以前留存的项目，觉着还有学习参考价值，拿出来分享，素材都是低配版的。
 
