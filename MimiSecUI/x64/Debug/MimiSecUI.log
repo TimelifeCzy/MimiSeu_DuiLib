@@ -1,0 +1,5 @@
+﻿D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(499,5): warning MSB8004: Output 目录未以斜杠结尾。  此生成实例将添加斜杠，因为必须有这个斜杠才能正确计算 Output 目录。
+  MimiSecUI.cpp
+D:\MimiSeu_DuiLib\DuiLib\Core\UIManager.h(55,3): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+D:\MimiSeu_DuiLib\DuiLib\Core\UIManager.h(67,3): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::MSGTYPE_UI”的左侧
+  MimiSecUI.vcxproj -> D:\MimiSeu_DuiLib\bin\MimiSecUI.exe

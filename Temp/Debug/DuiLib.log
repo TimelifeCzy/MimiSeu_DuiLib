@@ -1,0 +1,195 @@
+﻿  StdAfx.cpp
+D:\MimiSeu_DuiLib\DuiLib\Core\UIManager.h(55,3): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+D:\MimiSeu_DuiLib\DuiLib\Core\UIManager.h(67,3): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::MSGTYPE_UI”的左侧
+  UIIPAddressEx.cpp
+D:\MimiSeu_DuiLib\DuiLib\Core\UIManager.h(55,3): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::EVENTTYPE_UI”的左侧
+D:\MimiSeu_DuiLib\DuiLib\Core\UIManager.h(67,3): warning C4091: “typedef ”: 没有声明变量时忽略“DuiLib::MSGTYPE_UI”的左侧
+  unzip.cpp
+  正在生成代码...
+  UIRollText.cpp
+  UIAnimation.cpp
+D:\MimiSeu_DuiLib\DuiLib\Control\UIAnimation.cpp(74,46): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIAnimation.cpp(169,45): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  UIColorPalette.cpp
+  UIFadeButton.cpp
+D:\MimiSeu_DuiLib\DuiLib\Control\UIFadeButton.cpp(59,19): warning C4244: “参数”: 从“WPARAM”转换到“int”，可能丢失数据
+  UIGifAnim.cpp
+  UIGifAnimEx.cpp
+  UIGroupBox.cpp
+  UIHotKey.cpp
+D:\MimiSeu_DuiLib\DuiLib\Control\UIHotKey.cpp(150,24): warning C4244: “return”: 从“LRESULT”转换到“DWORD”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIHotKey.cpp(272,35): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIIPAddress.cpp
+D:\MimiSeu_DuiLib\DuiLib\Control\UIIPAddress.cpp(237,35): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIListEx.cpp
+D:\MimiSeu_DuiLib\DuiLib\Control\UIListEx.cpp(137,67): warning C4244: “参数”: 从“LPARAM”转换到“BOOL”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIListEx.cpp(171,17): warning C4244: “=”: 从“WPARAM”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIListEx.cpp(172,17): warning C4244: “=”: 从“LPARAM”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIListEx.cpp(745,36): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIListEx.cpp(1139,37): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIMenu.cpp
+  UIRing.cpp
+D:\MimiSeu_DuiLib\DuiLib\Control\UIRing.cpp(54,65): warning C4244: “参数”: 从“LONG”转换到“Gdiplus::REAL”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIRing.cpp(54,42): warning C4244: “参数”: 从“LONG”转换到“Gdiplus::REAL”，可能丢失数据
+  ControlFactory.cpp
+  UIResourceManager.cpp
+  UIAnimationTabLayout.cpp
+D:\MimiSeu_DuiLib\DuiLib\Layout\UIAnimationTabLayout.cpp(85,19): warning C4244: “参数”: 从“WPARAM”转换到“int”，可能丢失数据
+  UIlib.cpp
+  DPI.cpp
+  DragDropImpl.cpp
+  TrayIcon.cpp
+  UIShadow.cpp
+D:\MimiSeu_DuiLib\DuiLib\Utils\UIShadow.cpp(79,20): warning C4244: “初始化”: 从“LONG_PTR”转换到“LONG”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Utils\UIShadow.cpp(592,22): warning C4244: “初始化”: 从“LONG_PTR”转换到“LONG”，可能丢失数据
+  正在生成代码...
+  正在编译...
+  WinImplBase.cpp
+  UIDelegate.cpp
+  Utils.cpp
+  UIBase.cpp
+D:\MimiSeu_DuiLib\DuiLib\Core\UIBase.cpp(317,23): warning C4244: “=”: 从“WPARAM”转换到“UINT”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Core\UIBase.cpp(329,55): warning C4244: “参数”: 从“WPARAM”转换到“int”，可能丢失数据
+  UIContainer.cpp
+  UIControl.cpp
+D:\MimiSeu_DuiLib\DuiLib\Core\UIControl.cpp(823,36): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIDlgBuilder.cpp
+  UIManager.cpp
+D:\MimiSeu_DuiLib\DuiLib\Core\UIManager.cpp(1250,25): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+D:\MimiSeu_DuiLib\DuiLib\Core\UIManager.cpp(1250,34): warning C4838: 从“DWORD”转换到“LONG”需要收缩转换
+  UIMarkup.cpp
+D:\MimiSeu_DuiLib\DuiLib\Core\UIMarkup.cpp(167,51): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Core\UIMarkup.cpp(172,54): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Core\UIMarkup.cpp(460,20): warning C4244: “初始化”: 从“__int64”转换到“ULONG”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Core\UIMarkup.cpp(461,32): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Core\UIMarkup.cpp(477,35): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Core\UIMarkup.cpp(485,37): warning C4244: “=”: 从“__int64”转换到“ULONG”，可能丢失数据
+  UIRender.cpp
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1474,103): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1474,98): warning C4244: “参数”: 从“int”转换到“float”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1474,87): warning C4244: “参数”: 从“LONG”转换到“float”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1474,63): warning C4244: “参数”: 从“LONG”转换到“float”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1474,38): warning C4244: “参数”: 从“const LONG”转换到“float”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1474,29): warning C4244: “参数”: 从“const LONG”转换到“float”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1693,110): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1693,110): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1743,108): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1743,108): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1777,40): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1788,18): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1788,18): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1806,18): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1806,18): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1816,40): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1867,17): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1867,17): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1897,19): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1897,19): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(1998,45): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2030,18): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2030,18): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2068,99): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2068,99): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2076,15): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2076,15): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2096,99): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2096,99): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2116,16): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2116,16): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2255,98): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2255,98): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Core\UIRender.cpp(2400,64): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+  UIChildLayout.cpp
+  UIHorizontalLayout.cpp
+D:\MimiSeu_DuiLib\DuiLib\Layout\UIHorizontalLayout.cpp(321,37): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UITabLayout.cpp
+  UITileLayout.cpp
+  UIVerticalLayout.cpp
+D:\MimiSeu_DuiLib\DuiLib\Layout\UIVerticalLayout.cpp(319,37): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIActiveX.cpp
+  UIButton.cpp
+  UICombo.cpp
+  UIComboBox.cpp
+  UIDateTime.cpp
+  正在生成代码...
+  正在编译...
+  UIEdit.cpp
+D:\MimiSeu_DuiLib\DuiLib\Control\UIEdit.cpp(306,35): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIFlash.cpp
+  UILabel.cpp
+  UIList.cpp
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(270,38): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(270,38): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(274,37): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(274,37): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(285,38): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(285,38): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(289,37): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(289,37): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(430,36): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(430,36): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(451,5): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(452,34): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(472,5): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(476,33): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(500,46): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(500,46): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(518,48): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(539,29): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(547,45): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(547,45): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(570,36): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(570,36): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(572,46): warning C4312: “类型强制转换”: 从“int”转换到更大的“LPVOID”
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(576,44): warning C4311: “类型强制转换”: 从“LPVOID”到“int”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(576,44): warning C4302: “类型强制转换”: 从“LPVOID”到“int”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(1871,36): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(2440,53): warning C4311: “类型强制转换”: 从“LPVOID”到“DWORD”的指针截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(2440,53): warning C4302: “类型强制转换”: 从“LPVOID”到“DWORD”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(2450,100): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(2451,50): warning C4312: “类型强制转换”: 从“DWORD”转换到更大的“LPVOID”
+D:\MimiSeu_DuiLib\DuiLib\Control\UIList.cpp(2480,37): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIOption.cpp
+  UIProgress.cpp
+D:\MimiSeu_DuiLib\DuiLib\Control\UIProgress.cpp(125,77): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIProgress.cpp(129,75): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+  UIRichEdit.cpp
+  UIScrollBar.cpp
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(94,10): warning C4244: “return”: 从“const __int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(109,10): warning C4244: “return”: 从“const __int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(412,18): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(415,64): warning C4244: “=”: 从“__int64”转换到“LONG”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(485,18): warning C4244: “初始化”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(488,72): warning C4244: “=”: 从“float”转换到“LONG”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(557,37): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(561,37): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(568,37): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(572,37): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(578,24): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(586,53): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(590,53): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(596,54): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(600,54): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(637,41): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(646,57): warning C4244: “=”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(690,37): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(694,37): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(701,37): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(705,37): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(716,53): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(720,53): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(726,54): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UIScrollBar.cpp(730,54): warning C4244: “参数”: 从“__int64”转换到“int”，可能丢失数据
+  UISlider.cpp
+D:\MimiSeu_DuiLib\DuiLib\Control\UISlider.cpp(131,27): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UISlider.cpp(136,27): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UISlider.cpp(196,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UISlider.cpp(201,29): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\MimiSeu_DuiLib\DuiLib\Control\UISlider.cpp(226,36): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+  UIText.cpp
+D:\MimiSeu_DuiLib\DuiLib\Control\UIText.cpp(54,37): warning C4302: “类型强制转换”: 从“LPWSTR”到“WORD”截断
+D:\MimiSeu_DuiLib\DuiLib\Control\UIText.cpp(129,35): warning C4244: “参数”: 从“double”转换到“int”，可能丢失数据
+  UITreeView.cpp
+  UIWebBrowser.cpp
+  正在生成代码...
+  DuiLib.vcxproj -> D:\MimiSeu_DuiLib\lib\DuiLib_d.lib
